@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/ereyes00/wonder-women/issues"
   },
-  "heroku-postbuild": "webpack",
+  "heroku-postbuild": "webpack --watch",
   "homepage": "https://github.com/ereyes00/wonder-women#readme",
   "dependencies": {
     "babel": "^6.5.2",
