@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./back/server.js & webpack --w",
+    "start": "node ./back/server.js ",
     "test": "mocha --timeout 10000",
     "seed": "node ./seed/index.js"
   },
@@ -17,6 +17,7 @@
   "bugs": {
     "url": "https://github.com/ereyes00/wonder-women/issues"
   },
+  "heroku-postbuild": "webpack",
   "homepage": "https://github.com/ereyes00/wonder-women#readme",
   "dependencies": {
     "babel": "^6.5.2",
