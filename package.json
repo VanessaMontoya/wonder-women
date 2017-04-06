@@ -73,7 +73,7 @@
     "webpack-livereload-plugin": "^0.10.0"
   },
   "engines": {
-  "node": "7.4.0"
+    "node": "6.10.0"
   },
   "keywords": []
 }
