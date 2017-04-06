@@ -1,0 +1,24 @@
+ {
+  "development": {
+    "username": "Vanessa",
+    "password": null,
+    "database": "artGal",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "Vanessa",
+    "password": null,
+    "database": "artGal",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "Vanessa",
+    "password": null,
+    "database": "postgres://aqnnwfyjgbzltx:2703da9368ebfe942c065f34addabe49b494a68fe634fe252ab38e99b6cc7d22@ec2-54-235-123-159.compute-1.amazonaws.com:5432/d89raconntnqe6",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "use_env_variable": "DATABASE_URL"
+  }
+}
